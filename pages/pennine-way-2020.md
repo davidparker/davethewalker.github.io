@@ -21,3 +21,4 @@ things manageable.
 
 > The Pennine Way is a National Trail in England, with a small section in Scotland. The trail stretches for 268 miles from Edale, in the northern Derbyshire Peak District, north through the Yorkshire Dales and Northumberland National Park and ends at Kirk Yetholm, just inside the Scottish border
 
+This page will be used as the main indexing page for the many blogs post related to this subject.  
