@@ -8,8 +8,7 @@ ValidatorBugDemo.zip
 ## Intro
 
 This is a statement about the integrity of this blog or its
-“blogtegrity”. See [this post](https://haacked.com/archive/2006/03/07/BlogtegrityAgain.aspx/)
-for why I wrote this.
+“blogtegrity”. 
 
 This is a promise that the contents of this blog under my control are
 genuine, truthful, and honest to the best of my knowledge. The obvious

@@ -1,13 +1,11 @@
-title: You've Been Haacked
-subtitle: ...and you like it
-author: Phil Haack
-avatar_url: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160 # Should be 160x160px.
+title: Dave The Walker
+subtitle: Feet Hurt
+author: davethecoder
+#avatar_url: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160 # Should be 160x160px.
 # email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
 description: > # this means to ignore newlines until "twitter_username:"
-  You've been Haacked is a blog about
-  Technology, Software, Management, and Open Source.
-  It's full of good stuff.
-repository: haacked/haacked.com
+  Davethewalker is a blog about hiking and thu-hiking mainly in the UK
+repository: davidparker/davethewalker.github.io
 
 # Google Analytics
 google_analytics: UA-177588-1
@@ -15,11 +13,11 @@ google_analytics: UA-177588-1
 # contact
 contact:
 #  email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
-  url: https://github.com/Haacked/feedback/issues/new # Uncomment this to provide a contact form url instead of an email
+  url: https://github.com/davidparker/davethewalker.github.io/issues/new # Uncomment this to provide a contact form url instead of an email
 
 # social links
-twitter_username: haacked
-github_username:  haacked
+twitter_username: davethecoder
+github_username:  davethecoder
 rss: rss
 
 # 
@@ -31,7 +29,7 @@ feed:
    path: /atom.xml
 
 # If you use a feed publisher such as Feedburner, uncomment the next line
-subscribe_rss: http://feeds.haacked.com/haacked
+#subscribe_rss: http://feeds.haacked.com/haacked
 
 # Homepage
 show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
