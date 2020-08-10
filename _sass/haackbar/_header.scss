@@ -91,7 +91,7 @@
   @include relative-font-size(3);
   @include relative-font-weight(2.5);
   font-family: $title-font-family;
-  color: rgb(154 147 66);;
+  color: rgb(154 147 66);
   line-height: $base-line-height * $base-font-size * 1.7;
   text-transform: capitalize;
 
