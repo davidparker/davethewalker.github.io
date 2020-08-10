@@ -1,9 +1,8 @@
 ---
-title: "Hi, I'm Haacked"
+title: "Hi, I'm dave"
 nav_title: "About"
-description: "A bit about Phil Haack"
-include_nav: true
-redirect_from: "/articles/AboutHaacked.aspx.html"
+description: "A bit about dave the walker"
+include_nav: trues
 tags: [personal]
 permalink: /about/
 ---

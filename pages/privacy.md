@@ -1,6 +1,10 @@
 ---
 title: "Privacy Policy"
-permalink: /privacy
+nav_title: "Privacy"
+description: "Legal buff"
+include_nav: true
+tags: [legel]
+permalink: /privacyss/
 ---
 
 ## What? Why Have A Privacy Policy?
