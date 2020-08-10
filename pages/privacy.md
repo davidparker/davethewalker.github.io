@@ -4,7 +4,7 @@ nav_title: "Privacy"
 description: "Legal buff"
 include_nav: true
 tags: [legel]
-permalink: /privacyss/
+permalink: /privacy/
 ---
 
 ## What? Why Have A Privacy Policy?
