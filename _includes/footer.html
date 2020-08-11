@@ -1,5 +1,6 @@
 <script>
     $('#errorMessages').hide();
+    $('#successMessages').hide();
 
     function submitContact(){
         
@@ -34,13 +35,15 @@
                 data: form,
                 dataType: "json",
                 success: function(d){
-                    console.log(d);
-                    $('#errorMessages').hide();
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('#message').val('');
+                    $('#successMessages').html('<b>THANKS</b> Got ya message, ta luv!').show();
                 }
             });
         } else {
             $('#errorMessages').html(messages).show();
-
         }
     }
 </script>
+<p>This should be in the footer</p>
