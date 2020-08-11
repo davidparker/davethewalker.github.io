@@ -1,0 +1,22 @@
+<script>
+    function submitContact(){
+        $('#errorMessages').show();
+
+        var form = {
+            name: $('#name').val(),
+            email: $('#email').val(),
+            message: $('#message').val()
+        };
+
+        $.ajax({
+            url: "https://usebasin.com/f/aa0530b8f1d2.json",
+            method: "POST",
+            data: form,
+            dataType: "json",
+            success: function(d){
+                console.log(d);
+                $('#errorMessages').hide();
+            }
+        })
+    }
+</script>
