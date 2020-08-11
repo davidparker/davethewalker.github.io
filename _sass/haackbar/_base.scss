@@ -222,3 +222,32 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.footer-block {
+  padding: 20px; 
+  border-top: 1px solid #e8e8e8;
+}
+.footer-left-block {
+  float: left; 
+  border-right: 1px solid #e8e8e8;
+}
+.footer-right-block {
+  float: left; 
+  padding-left: 20px;
+}
+.clear {
+  clear: both;
+}
+
+.errorBox{
+  padding:10px; 
+  background-color: firebrick; 
+  color: white; 
+  font-size: 16px;
+}
+.successBox {
+  padding:10px; 
+  background-color:seagreen; 
+  color: black; 
+  font-size: 16px;
+}
