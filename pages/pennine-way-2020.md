@@ -1,4 +1,5 @@
 ---
+auther: "david parker"
 title: "Walking the pennine way in 15 days 2020"
 nav_title: "Pennine way 2020"
 description: "The diary of a madman as he walks the pennine way in 15 days"
@@ -6,6 +7,7 @@ include_nav: true
 tags: [walks, hiking, backpacking, thru-hikes, UK]
 permalink: /pennine-way-2020/
 excerpt_image: /images/Malham_Cove,_Tarn_sign.jpg
+image: "/images/Malham_Cove,_Tarn_sign.jpg"
 ---
 
 ## 23rd August 2020 Pennine way. Edale to Kirk Yetholm
