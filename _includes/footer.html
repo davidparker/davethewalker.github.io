@@ -2,8 +2,7 @@
     $('#errorMessages').hide();
 
     function submitContact(){
-        $('#errorMessages').show();
-
+        
         var form = {
             name: $('#name').val(),
             email: $('#email').val(),
@@ -39,6 +38,9 @@
                     $('#errorMessages').hide();
                 }
             });
+        } else {
+            $('#errorMessages').html(messages).show();
+
         }
     }
 </script>
