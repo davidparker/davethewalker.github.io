@@ -1,22 +1,44 @@
 <script>
+    $('#errorMessages').hide();
+
     function submitContact(){
         $('#errorMessages').show();
 
         var form = {
             name: $('#name').val(),
             email: $('#email').val(),
-            message: $('#message').val()
+            message: $('#message').val(),
+            eggs_turn_into_chickens: $('#eggs_turn_into_chickens').val()
         };
 
-        $.ajax({
-            url: "https://usebasin.com/f/aa0530b8f1d2.json",
-            method: "POST",
-            data: form,
-            dataType: "json",
-            success: function(d){
-                console.log(d);
-                $('#errorMessages').hide();
-            }
-        })
+        var success = true, messages = '<b>Error on form submit</b><br>';
+
+        if(form.email.length <= 0 || form.email === ''){
+            success = false;
+            messages += '* Email is required<br>';
+        }
+
+        if (form.name.length <= 0 || form.name === '') {
+            success = false;
+            messages += '* name is required<br>';
+        }
+
+        if (form.message.length <= 0 || form.message === '') {
+            success = false;
+            messages += '* Message is required<br>';
+        }
+
+        if(success){
+            $.ajax({
+                url: "https://usebasin.com/f/aa0530b8f1d2.json",
+                method: "POST",
+                data: form,
+                dataType: "json",
+                success: function(d){
+                    console.log(d);
+                    $('#errorMessages').hide();
+                }
+            });
+        }
     }
 </script>
