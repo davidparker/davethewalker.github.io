@@ -6,14 +6,17 @@ description: "The diary of a madman as he walks the pennine way in 15 days"
 include_nav: true
 tags: [walks, hiking, backpacking, thru-hikes, UK]
 permalink: /pennine-way-2020/
-excerpt_image: /images/Malham_Cove,_Tarn_sign.jpg
-image: "/images/Malham_Cove,_Tarn_sign.jpg"
+excerpt_image: /assets/img/Malham_Cove,_Tarn_sign.jpg
+image: "/assets/img/Malham_Cove,_Tarn_sign.jpg"
 ---
 
-## 23rd August 2020 Pennine way. Edale to Kirk Yetholm
-`approx 267 miles`
+# 23rd August 2020 Pennine way. Edale to Kirk Yetholm
+<p class="text-center" markdown="1">
+`approx 267 miles` 
+</p>
 
-![The Pennine way](/images/Malham_Cove,_Tarn_sign.jpg "Malham cove, tarn sign post on pennine way")
+{:.text-center} 
+![The Pennine way](/assets/img/Malham_Cove,_Tarn_sign.jpg "Malham cove, tarn sign post on pennine way")
 
 The pennine way is not one of your average walks. It is a thru-hike that me and a friend will be doing
 with wild camping thrown in.  We will have everything we need for the journey in our bags.  We will be using no guides, pick up points or other glamping methods.

@@ -1,57 +1,57 @@
-<script>
-    $('#errorMessages').hide();
-    $('#successMessages').hide();
-
-    function submitContact(){
-        
-        var form = {
-            name: $('#name').val(),
-            email: $('#email').val(),
-            message: $('#message').val(),
-            eggs_turn_into_chickens: $('#eggs_turn_into_chickens').val()
-        };
-
-        var success = true, messages = '<b>Error on form submit</b><br>';
-
-        if(form.email.length <= 0 || form.email === ''){
-            success = false;
-            messages += '* Email is required<br>';
-        }
-
-        if (form.name.length <= 0 || form.name === '') {
-            success = false;
-            messages += '* name is required<br>';
-        }
-
-        if (form.message.length <= 0 || form.message === '') {
-            success = false;
-            messages += '* Message is required<br>';
-        }
-
-        if(success){
-            $.ajax({
-                url: "https://usebasin.com/f/aa0530b8f1d2.json",
-                method: "POST",
-                data: form,
-                dataType: "json",
-                success: function(d){
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#message').val('');
-                    $('#successMessages').html('<b>THANKS</b> Got ya message, ta luv!').show();
-                }
-            });
-        } else {
-            $('#errorMessages').html(messages).show();
-        }
-    }
-</script>
-<div class="footer-block">
-    <div class="footer-left-block">
-        {% include social.html %}
+<footer class="footer footer-default">
+    <div class="container">
+        <nav class="float-left">
+            <ul>
+                <li>
+                    <a href="/">
+                        Dave The Walker
+                    </a>
+                </li>
+                <li>
+                    <a href="/Contact">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/Privacy">
+                        Privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/davethecoder" target="_blank">
+                        <i class="fab fa-instagram"></i> Insta
+                    </a>
+                </li>
+                <li>
+                    <a href="/feed.xml" target="_blank">
+                        <i class="fas fa-rss"></i> rss feed
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright float-right">
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>, Created by David Parker
+        </div>
     </div>
-    <div class="footer-right-block">
-        <p>dave the walker is a blog about hiking and hiking related subjects.</p> 
-    </div>
-    <br class="clear" />
-</div>
+</footer>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+    integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap-material-design.min.js"></script>
+<script src="/assets/js/material-kit.js"></script>

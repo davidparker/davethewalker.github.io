@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en-GB">
+{% include head.html %}
 
-  {% include head.html %}
-
-  <body>
-    <header class="header">{% include_cached header.html %}</header>
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+<body class="profile-page sidebar-collapse">
+  {% include side-nav.html %}
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('/assets/img/bg2.jpg');">
+  </div>
+  <div class="main main-raised">
+    <div class="profile-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto">
+            <div class="profile">
+              <div class="avatar">
+                <img src="/assets/img/logo.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto text-center">
+            {{ content }}
+          </div>
+        </div>
       </div>
-      {% include_cached footer.html %}
-    </main>
-  </body>
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
 
 </html>
